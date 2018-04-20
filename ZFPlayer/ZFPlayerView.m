@@ -999,7 +999,7 @@ typedef NS_ENUM(NSInteger, PanDirection){
     ZFPlayerView *view = (ZFPlayerView *)gesture.view;
     const CGFloat width = view.frame.size.width;
     const CGFloat height = view.frame.size.height;
-    const CGFloat distance = 10;  // 离四周的最小边距
+    const CGFloat distance = 0;  // 离四周的最小边距
     
     if (gesture.state == UIGestureRecognizerStateEnded) {
         // x轴的的移动
